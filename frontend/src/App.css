@@ -2,4 +2,26 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+}
+
+h1{
+  font-size: 12px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 25%;
+  padding: 20px;
+  background-color: lavender;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+form div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
 }
